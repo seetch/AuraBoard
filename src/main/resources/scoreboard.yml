@@ -1,0 +1,21 @@
+scoreboards:
+
+  default:
+    priority: 0
+    conditions: [ ]
+    worlds: [ ]
+    title:
+      animation: false
+      static: "<bold><blue>EpicServer"
+      frames: [ ]
+      frame-interval: 10
+    lines:
+      - "<gray>Онлайн: <white>%server_online%"
+      - ""
+      - "<aqua>Ваш ник: <white>%player_name%"
+      - "<aqua>Здоровье: <white>%player_health%"
+      - ""
+      - "<yellow>epicserver.net"
+    pages:
+      enabled: false
+      interval: 100

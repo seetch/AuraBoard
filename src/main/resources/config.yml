@@ -1,0 +1,19 @@
+debug: false
+update-interval: 20
+placeholder-cache-ms: 500
+
+storage:
+  type: YAML
+  mysql:
+    host: localhost
+    port: 3306
+    database: auraboard
+    user: root
+    password: ""
+    pool-size: 5
+
+modules:
+  scoreboard: true
+  tab: true
+  nametag: true
+  belowname: true

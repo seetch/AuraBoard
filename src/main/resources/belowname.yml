@@ -1,0 +1,10 @@
+enabled: true
+worlds: [ ]
+
+modes:
+  default:
+    priority: 0
+    conditions: [ ]
+    score: "%player_health_rounded%"
+    display-name: "<white>❤ HP"
+    custom-score-format: "<green>%player_health_rounded% ❤"

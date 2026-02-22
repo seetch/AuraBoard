@@ -1,0 +1,9 @@
+nametags:
+
+  default:
+    priority: 0
+    conditions: [ ]
+    prefix: "%luckperms_prefix%"
+    suffix: "%luckperms_suffix%"
+    player-color: WHITE
+    visibility: ALWAYS

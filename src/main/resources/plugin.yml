@@ -1,0 +1,45 @@
+name: AuraBoard
+version: ${project.version}
+api-version: "1.20.4"
+main: me.seetch.auraboard.AuraBoardPlugin
+description: Lightweight TAB / Nametag / Scoreboard plugin.
+authors: [ seetch ]
+softdepend: [ PlaceholderAPI, LuckPerms, Vault, EssentialsX, CMI, floodgate ]
+
+commands:
+  auraboard:
+    description: Main AuraBoard command
+    aliases: [ ab ]
+    usage: /auraboard <reload|debug|set|clear|version>
+  scoreboard:
+    description: Scoreboard toggle
+    usage: /scoreboard toggle
+  tab:
+    description: TAB toggle
+    usage: /tab toggle
+  belowname:
+    description: Belowname toggle
+    usage: /belowname toggle
+
+permissions:
+  auraboard.reload:
+    description: Reload all configs
+    default: op
+  auraboard.debug:
+    description: Debug player data
+    default: op
+  auraboard.set:
+    description: Force-set scoreboard
+    default: op
+  auraboard.bypass.conditions:
+    description: Bypass conditions for testing
+    default: op
+  auraboard.scoreboard.toggle:
+    description: Toggle scoreboard visibility
+    default: true
+  auraboard.tab.toggle:
+    description: Toggle TAB header/footer
+    default: true
+  auraboard.belowname.toggle:
+    description: Toggle belowname visibility
+    default: true

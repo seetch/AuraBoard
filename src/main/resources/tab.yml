@@ -1,0 +1,28 @@
+header:
+  animation: true
+  frame-interval: 15
+  frames:
+    - "\n<bold><gradient:aqua:blue>✦ EpicServer ✦</gradient></bold>\n"
+    - "\n<bold><gradient:blue:aqua>✦ EpicServer ✦</gradient></bold>\n"
+
+footer:
+  animation: false
+  static: "\n<gray>Онлайн: <white>%server_online% / %server_max_players%\n<yellow>epicserver.net"
+
+player-format:
+  prefix: "%luckperms_prefix%"
+  name: "<white>%player_name%"
+  suffix: ""
+
+sorting:
+  enabled: true
+  mode: LUCKPERMS_WEIGHT
+  secondary: ALPHABETICAL
+  group-weights:
+    admin: 1000
+    moderator: 800
+    vip: 500
+    default: 0
+  fallback-weight: 0
+
+hide-conditions: [ ]
